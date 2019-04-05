@@ -17,7 +17,7 @@ var Datepicker = require('@salesforce/design-system-react/lib/components/date-pi
 var Lookup = require('@salesforce/design-system-react/lib/components/lookup/lookup');
 var Picklist = require('@salesforce/design-system-react/lib/components/menu-picklist/index');
 var ComboBoxFilter = require('@salesforce/design-system-react/lib/components/combobox/filter');
-var standardIcons = require('@salesforce/design-system-react/lib/icons/standard');
+//var standardIcons = require('@salesforce/design-system-react/lib/icons/standard');
 var Dropdown = require('@salesforce/design-system-react/lib/components/menu-dropdown/menu-dropdown');
 var ButtonTrigger = require('@salesforce/design-system-react/lib/components/menu-dropdown/button-trigger');
 var Card = require('@salesforce/design-system-react/lib/components/card/index');
@@ -63,7 +63,7 @@ exports._picklistImpl = Picklist.default;
 
 exports._comboBoxFilterImpl = ComboBoxFilter.default;
 
-exports._standardIcons = standardIcons.default;
+// exports._standardIcons = standardIcons.default;
 
 exports._dropdownImpl = Dropdown.default;
 
@@ -76,4 +76,3 @@ exports._cardFilterImpl = CardFilter.default;
 exports._cardEmptyImpl = CardEmpty.default;
 
 exports._buttonGroupImpl = ButtonGroup.default;
-// exports.actionSprite = ActionSprite;
